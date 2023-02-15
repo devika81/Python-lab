@@ -1,0 +1,5 @@
+items=input("Enter comma separated color names:\n")
+color=items.split(",")
+print(",".join (sorted(list(set(color)))))
+print("first color is",color[0])
+print ("last color is",color[-1])
